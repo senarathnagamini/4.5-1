@@ -97,7 +97,7 @@ async function RAVANA () {
     
 //baileys Wa Connection
     const conn = new WAConnection();
-    conn.version = [2, 2140, 12];
+    conn.version = [2, 2208, 7];
     const Session = new StringSession();
 
     conn.logger.level = config.DEBUG ? 'debug' : 'warn';
