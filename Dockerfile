@@ -1,4 +1,4 @@
-FROM fusuf/RAVANA:latest
+FROM fusuf/whatsasena:latest
 
 RUN git clone https://github.com/nobody1001-sl/4.5 /root/4.5
 WORKDIR /root/4.5/
