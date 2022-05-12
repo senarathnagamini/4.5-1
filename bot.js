@@ -341,7 +341,7 @@ ${chalk.blue.italic('Bot Connecting your whatsapp....')}`);
         }
     }, 50000);
  // Announcement
-    conn.on('chat-update', async m => {
+    conn.on('chat-update'), async m => {
         if (!m.hasNewMessage) return;
         if (!m.messages && !m.count) return;
         let msg = m.messages.all()[0];
